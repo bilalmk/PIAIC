@@ -1,0 +1,20 @@
+	Student Managment System
+=======================
+
+1) perform crud opration
+2) use text file,list or json for datastorage
+3) create student
+	1) Name
+	2) Father Name
+	3) Class Enrolled
+	4) Roll Number
+	5) Subject List
+		1) English
+		2) Match
+		3) etc
+		4) etc
+4) check if student already exist before creating new student ( check rollnumber duplication)
+5) list of all students of perticular class
+6) update student information ( can update all info except roll number and subject list)
+7) delete student ( using roll number and class)
+8) create manu to perform the required operations

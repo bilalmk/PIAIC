@@ -1,0 +1,3 @@
+Hello Python world
+append the content of open file
+append the content of open file

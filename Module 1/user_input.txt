@@ -1,0 +1,6 @@
+name  age  cnic
+Bial  22  223
+jamal  33  3434234
+kamal  11  234234
+saeed  45  33534254325
+irfan  44  23234
