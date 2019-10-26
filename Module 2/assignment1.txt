@@ -1,0 +1,20 @@
+import os
+import numpy as np
+from PIL import Image as image
+import matplotlib.pylab as plt
+%matplotlib inline
+rootDir="images"
+images = []
+
+numArray = np.array([20,[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3],[200,200,3]])
+
+i = 0
+for dirName,subDirList,fileList in os.walk(rootDir):
+    for fname in fileList:
+        img1 = np.array(image.open(rootDir+"/"+fname).resize((200,200)))
+        numArray[i] = img1
+        i=i+1
+
+for i in range(numArray.size-1):
+    print(numArray[i])
+    print("--------------")
